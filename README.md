@@ -1,4 +1,4 @@
-# sneaky_proxy
+# sneaky_c2
 
 Hiding infrastructure from the boys in blue! See my blog article linked below for details on how all this works:
 
