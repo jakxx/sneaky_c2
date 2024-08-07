@@ -2,10 +2,10 @@ version: '3.4'
 services:
 
 ########################
-# sneaky_proxy
+# sneaky_c2
 
   preflight:
-    container_name: sneaky_proxy
+    container_name: sneaky_c2
     build:
       context: ./
       dockerfile: Dockerfile
@@ -17,4 +17,4 @@ services:
     ports:
       - 443:443
       - 80:80
-    image: sneaky_proxy
+    image: sneaky_c2
